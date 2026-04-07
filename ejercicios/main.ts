@@ -33,6 +33,20 @@ async function ejecutarEjercicios() {
 
     console.log("\n--- Ejercicio 11 ---");
     await import('./11_op_mixta_4.ts');
-}
+
+//--------------------
+    console.log("\n--- Ejercicio 12 ---");
+    await import('./12_tres_variables.ts');
+
+    console.log("\n--- Ejercicio 13 ---");
+    await import('./13_variables_misma_linea.ts');
+
+    console.log("\n--- Ejercicio 14 ---");
+    await import('./14_producto_variables.ts');
+
+    console.log("\n--- Ejercicio 15 ---");
+    await import('./15_suma_variables.ts');
+} 
+
 
 ejecutarEjercicios();
